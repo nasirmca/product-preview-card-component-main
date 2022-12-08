@@ -1,0 +1,79 @@
+body{
+    max-width:  1440px;
+    /* font-family: 'Outfit', sans-serif;
+    font-family: 'Fraunces', serif; */
+
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+ }
+ h1{
+   font-family: 'Fraunces', serif;
+   padding-top: 15px;
+ }
+ .Main{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-top-right-radius: 25px;
+ }
+ img{
+  float: right;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   width: fit-content;
+   height: 550px;
+ }
+.col-6{
+  background-color: hsl(0, 0%, 100%);
+  width: 360px;
+  margin-left: -20px;
+  border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   padding-left: 30px
+}
+.paraOne{
+ color: hsl(228, 12%, 48%);
+ font-family: 'Outfit', sans-serif;
+ font-size: 22px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+.price{
+color: hsl(158, 36%, 37%) ;
+font-family: 'Fraunces', serif;
+font-size: 35px;
+}
+button{
+  border: none;
+  width: 90%;
+  padding: 9px;
+  border-radius: 8px;
+  background-color: hsl(158, 36%, 37%) ;
+  color: white;
+  text-align: center;
+  align-items: center;
+  
+}
+@media only screen and (max-width: 600px){
+ 
+   
+ 
+ img{
+   width: 97%;
+   margin-right: 0px;
+   border-radius: 15px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+ }
+ .col-6{
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+  margin-left:25px;
+  width: 90%;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+ }
+}
